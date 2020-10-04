@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="?attr/actionBarSize">
+
+    <EditText
+        android:id="@+id/et_texto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite o texto"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_texto2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite outro texto"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bt_mostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBtnMostrar"
+        android:text="Mostrar" />
+
+    <Button
+        android:id="@+id/bt_limpar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickLimpar"
+        android:text="Limpar" />
+
+</LinearLayout>
